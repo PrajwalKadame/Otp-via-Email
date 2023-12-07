@@ -42,10 +42,10 @@ public class UtilityMethods {
    	      message1.setFrom(new InternetAddress(from));
    	      message1.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
    	    message1.setRecipients(Message.RecipientType.CC, InternetAddress.parse(cc));
-   	      message1.setSubject("Email OTP");
+   	      message1.setSubject("Testing mail from SangamOne Connected Services(Prajwal)");
    	      message1.setContent(
    	    		"<body>"+
-   	    		  "<p>Otp: <b>"+ oneTimePassword+" </b></p>"+
+   	    		  "<p>This is just For Testing mail from SangamOne Connected Services(Prajwal). Otp:  <b>"+ oneTimePassword+" </b></p>"+
    	    		
    	    		"</div"+
    	    		  "</body>" ,"text/html");
